@@ -6,9 +6,9 @@
   <meta name="description" content="Морський — концепція готелю біля моря. Оберіть стандартний, сімейний номер або люкс і підготуйте запит на проживання.">
   <meta name="theme-color" content="#153e4b">
   <title>Морський — готель біля моря</title>
-  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./style.css">
-  <script src="./script.js"></script>
+  <script src="./script.js" defer></script>
 </head>
 <body id="top">
   <a class="skip-link" href="#main">Перейти до вмісту</a>
@@ -29,8 +29,8 @@
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
       <picture class="hero-picture">
-        <source media="(max-width: 600px)" srcset="img/hotel-background-mobile.jpg">
-        <img src="img/hotel-background-desktop.jpg" alt="Тераса з басейном біля корпусу готелю" width="2560" height="1920" fetchpriority="high">
+        <source media="(max-width: 600px)" srcset="./hotel-background-mobile.jpg">
+        <img src="./hotel-background-desktop.jpg" alt="Тераса з басейном біля корпусу готелю" width="2560" height="1920" fetchpriority="high">
       </picture>
       <div class="hero-content wrap">
         <p class="eyebrow">ВАШ ЧАС БІЛЯ МОРЯ</p>
@@ -50,15 +50,15 @@
         <div class="section-heading"><div><p class="eyebrow section-label"><span>02 /</span> НОМЕРИ</p><h2 id="rooms-title">Ваше місце <em>біля моря.</em></h2></div><p>Три варіанти відпочинку.<br>Оберіть той, що ближчий вам.</p></div>
         <div class="rooms">
           <article class="room">
-            <div class="room-photo"><img src="img/standard-room.jpg" alt="Світлий стандартний номер із двома окремими ліжками" width="1919" height="1000" loading="lazy" decoding="async"><span class="room-number" aria-hidden="true">01</span></div>
+            <div class="room-photo"><img src="./standard-room.jpg" alt="Світлий стандартний номер із двома окремими ліжками" width="1919" height="1000" loading="lazy" decoding="async"><span class="room-number" aria-hidden="true">01</span></div>
             <div class="room-content"><p class="eyebrow">ЛАКОНІЧНИЙ КОМФОРТ</p><h3>Стандарт</h3><p>Світлий, затишний номер для одного або двох. Усе, щоб виспатися й почати новий день без поспіху.</p><div class="room-footer"><span>Для одного або двох</span><a class="book-btn" href="#booking" data-room="standard" aria-label="Обрати стандартний номер">Обрати <span aria-hidden="true">↗</span></a></div></div>
           </article>
           <article class="room">
-            <div class="room-photo"><img src="img/luxury-room.jpg" alt="Номер люкс із великим ліжком, зоною відпочинку та видом на воду" width="1902" height="1268" loading="lazy" decoding="async"><span class="room-number" aria-hidden="true">02</span></div>
+            <div class="room-photo"><img src="./luxury-room.jpg" alt="Номер люкс із великим ліжком, зоною відпочинку та видом на воду" width="1902" height="1268" loading="lazy" decoding="async"><span class="room-number" aria-hidden="true">02</span></div>
             <div class="room-content"><p class="eyebrow">ВІДПОЧИНОК ІЗ ВИГЛЯДОМ</p><h3>Люкс</h3><p>Більше простору, окрема зона для неквапливих вечорів і краєвид на море, який хочеться запам’ятати.</p><div class="room-footer"><span>Для особливих моментів</span><a class="book-btn" href="#booking" data-room="suite" aria-label="Обрати номер люкс">Обрати <span aria-hidden="true">↗</span></a></div></div>
           </article>
           <article class="room">
-            <div class="room-photo"><img src="img/family-room.jpg" alt="Сімейний номер із двоспальним і додатковим односпальним ліжком" width="1920" height="1227" loading="lazy" decoding="async"><span class="room-number" aria-hidden="true">03</span></div>
+            <div class="room-photo"><img src="./family-room.jpg" alt="Сімейний номер із двоспальним і додатковим односпальним ліжком" width="1920" height="1227" loading="lazy" decoding="async"><span class="room-number" aria-hidden="true">03</span></div>
             <div class="room-content"><p class="eyebrow">ДОБРЕ БУТИ РАЗОМ</p><h3>Сімейний</h3><p>Простір для спільного відпочинку. Зручно влаштуватися всією сім’єю та провести більше часу разом.</p><div class="room-footer"><span>Для відпочинку з близькими</span><a class="book-btn" href="#booking" data-room="family" aria-label="Обрати сімейний номер">Обрати <span aria-hidden="true">↗</span></a></div></div>
           </article>
         </div>
