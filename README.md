@@ -2,6 +2,18 @@
 
 A responsive seaside hotel website built with HTML, CSS, and JavaScript.
 
+## Preview
+
+### Desktop
+
+![Sea Hotel desktop homepage](screenshots/sea-hotel-desktop.jpg)
+
+### Mobile
+
+<p align="center">
+  <img src="screenshots/sea-hotel-mobile.jpg" alt="Sea Hotel mobile homepage" width="390">
+</p>
+
 ## About
 
 Sea Hotel is my first frontend portfolio project. It presents a seaside hotel's accommodation, services, and facilities through a responsive website designed for desktop, tablet, and mobile screens.
@@ -26,8 +38,6 @@ The project demonstrates page structure, responsive styling, and client-side int
 ## Live Demo
 
 [View the live website](https://vladislav200603.github.io/sea-hotel/)
-
-
 
 ## Project status
 
