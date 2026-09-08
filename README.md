@@ -25,13 +25,13 @@ The project demonstrates page structure, responsive styling, and client-side int
 
 ## Live Demo
 
-**Coming soon.** The live demo link will be added after deployment.
+[View the live website](https://vladislav200603.github.io/sea-hotel/)
 
-<!-- Replace this placeholder with: [View Live Demo](YOUR_DEPLOYED_SITE_URL) -->
+
 
 ## Project status
 
-The initial frontend version is complete and ready for portfolio presentation. Public deployment is pending.
+The initial frontend version is complete, deployed with GitHub Pages, and ready for portfolio presentation.
 
 ## Disclaimer
 
